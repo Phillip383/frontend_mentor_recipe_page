@@ -1,0 +1,45 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+
+  --Brown-800: hsl(14, 45%, 36%);
+
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+}
+
+@font-face {
+  font-family: "outfit-norm";
+  font-weight: 400;
+  src: url("assets/fonts/outfit/static/Outfit-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "outfit-smbold";
+  font-weight: 600;
+  src: url("assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "outfit-bold";
+  font-weight: 700;
+  src: url("assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "young-serif";
+  font-weight: 400;
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
