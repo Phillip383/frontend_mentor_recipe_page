@@ -36,6 +36,59 @@
   src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "young-serif";
+  background-color: var(--Stone-100);
+}
+
+p {
+  font-size: 16px;
+}
+
+img {
+  width: clamp(256px, 70%, 512px);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  margin: 2rem 0;
+  background: black;
+}
+
+/*Flexbox container that centers it's content.*/
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-container.recipe {
+  width: clamp(375px, 50%, 850px);
+  background-color: var(--White);
+  border-radius: 10px;
+  padding: 20px;
+}
+/*
+.prep-time {
+}
+
+.ingrediants {
+}
+
+.instructions {
+}
+
+.nutrition {
+}
+*/
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
