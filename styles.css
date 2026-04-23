@@ -42,8 +42,18 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: "young-serif";
+  font-family: "outfit-norm";
+  color: var(--Stone-600);
   background-color: var(--Stone-100);
+}
+
+h1 {
+  color: var(--Stone-900);
+}
+
+h2 {
+  color: var(--Brown-800);
+  font-family: "young-serif";
 }
 
 p {
@@ -52,6 +62,7 @@ p {
 
 img {
   width: clamp(256px, 70%, 512px);
+  border-radius: 10px;
 }
 
 hr {
@@ -59,7 +70,7 @@ hr {
   height: 1px;
   width: 100%;
   margin: 2rem 0;
-  background: black;
+  background: var(--Stone-100);
 }
 
 /*Flexbox container that centers it's content.*/
@@ -70,16 +81,34 @@ hr {
   align-items: flex-start;
 }
 
+.flex-container.center {
+  align-items: center;
+  justify-content: center;
+}
+
 .flex-container.recipe {
   width: clamp(375px, 50%, 850px);
   background-color: var(--White);
   border-radius: 10px;
   padding: 20px;
 }
-/*
-.prep-time {
+
+#prep-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: clamp(200px, 100%, 700px);
+  padding: 15px;
+  border-radius: 10px;
+  background-color: var(--Rose-50);
 }
 
+#prep-time h2 {
+  color: var(--Rose-800);
+}
+
+/*
 .ingrediants {
 }
 
