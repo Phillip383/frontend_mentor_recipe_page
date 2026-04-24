@@ -73,6 +73,25 @@ hr {
   background: var(--Stone-100);
 }
 
+table {
+  border-collapse: collapse;
+  width: 70%;
+  padding: 15px;
+}
+
+td {
+  padding: 15px;
+}
+
+.tr-bottom-border {
+  width: 100%;
+  border-bottom: 1px solid var(--Stone-150);
+}
+
+.outfit-bold {
+  font-family: "outfit-bold";
+}
+
 /*Flexbox container that centers it's content.*/
 .flex-container {
   display: flex;
@@ -93,6 +112,10 @@ hr {
   padding: 20px;
 }
 
+.brown-800 {
+  color: var(--Brown-800);
+}
+
 #prep-time {
   display: flex;
   flex-direction: column;
@@ -108,16 +131,18 @@ hr {
   color: var(--Rose-800);
 }
 
-/*
-.ingrediants {
+#nutrition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
 }
 
-.instructions {
+#nutrition table {
+  align-self: center;
 }
 
-.nutrition {
-}
-*/
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
