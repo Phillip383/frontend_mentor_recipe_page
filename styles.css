@@ -48,10 +48,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 80px;
 }
 
 h1 {
+  align-self: flex-start;
+  font-family: "young-serif";
   color: var(--Stone-900);
 }
 
@@ -153,4 +155,10 @@ td {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1000px) {
+  main {
+    margin: 0px;
+  }
 }
