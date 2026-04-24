@@ -106,7 +106,7 @@ td {
 }
 
 .flex-container.recipe {
-  width: clamp(375px, 50%, 850px);
+  width: clamp(375px, 50%, 750px);
   background-color: var(--White);
   border-radius: 10px;
   padding: 20px;
@@ -121,7 +121,7 @@ td {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: clamp(200px, 100%, 700px);
+  width: clamp(200px, 80%, 700px);
   padding: 15px;
   border-radius: 10px;
   background-color: var(--Rose-50);
