@@ -10,6 +10,8 @@
 
   --Rose-800: hsl(332, 51%, 32%);
   --Rose-50: hsl(330, 100%, 98%);
+
+  --Dark-Blue: hsl(228, 45%, 44%);
 }
 
 @font-face {
@@ -48,7 +50,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 80px;
 }
 
 h1 {
@@ -154,11 +155,17 @@ td {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Dark-Blue);
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 360px) {
   main {
-    margin: 0px;
+    margin: 0rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  main {
+    margin: 6rem;
   }
 }
